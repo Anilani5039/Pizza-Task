@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza order</title>
+  </head>
+    
+      <body bgcolor=" black" text="white">
+        <h1><marquee>Yummy cheesy Pizza </marquee></h1>
+        <img src="13.jfif" height="200" width="600">
+        <hr>
+        <style>
+          h1{
+            text-align: center;
+            background-color: blue;
+          }
+        </style>
+    
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>First name</label>
+            <input type="text" name="fname" size="25">
+            <label>Last name</label>
+            <input type="text" name="lname" size="25">
+            <label>mobile number
+            </label>
+            <input type="number" name="mobile">  
+            <label> address<textarea area col=70 rows=1 name="address"></textarea></label> 
+    
+         </fieldset>
+    
+         <fieldset>
+            <legend>Order details</legend>
+            <select name="size>"
+                <option>Select Pizza Size</option>
+                <option value="1">Size</option>
+                <option value="1">smal</option>
+                <option value="2">medium</option>
+    
+                <option value="3">large</option>
+                <option value="4">extra large</option>
+    
+                <option value="5">family</option>
+            </select> 
+            <select name="No of pizzas">
+                <option>Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+    
+            </select>
+    
+            <label>Delivery date</label>
+            <input type="date" name="date">
+    
+            <label>delivery time</label>
+            <input type="time"
+         </fieldset>
+         <fieldset>
+            <legend>Payment Method</legend>
+    
+            <select  name="Payment">
+                <option>Payment option</option>
+                <option value="1">Easy pay</option>
+                <option value="2">Debit/Credit card</option>
+                <option value="3">UPI</option>
+                <option value="4">Paytm</option>
+                <option value="5">COD</option>
+            </select>
+    
+    
+         </fieldset>
+         <fieldset>
+            <legend>cheeses</legend>
+            <input type="radio" name="cheese" value="1">Mozzarella
+            <input type="radio" name="cheese" value="2">feta
+            <input type="radio" name="cheese" value="3">cheddar
+                    <input type="radio" name="cheese" value="4">Reduced feta
+            
+            
+         </fieldset>
+    
+         <fieldset>
+            <legend>Sauces</legend>
+            <input type="radio" name="sauce" value="1">Pizza Sauce
+            <input type="radio" name="sauce" value="2">BBQ Sauce
+            <input type="radio" name="sauce" value="3">Garlic Sauce
+            <input type="radio" name="sauce" value="4">Tomatto Sauce
+         </fieldset>
+    
+         <fieldset>
+            <legend>Cool Drinks</legend>
+            <input type="checkbox" name="Drinks" value="1">Coke
+            <input type="checkbox" name="Drinks" value="2">pepsi
+            <input type="checkbox" name="Drinks" value="3">Sprite
+            <input type="checkbox" name="Drinks" value="4">Thumbsup
+            <input type="checkbox" name="Drinks" value="5">Dew
+            <input type="checkbox" name="Drinks" value="6">Fanta
+    
+    
+         </fieldset>
+    
+         <span>Spicy range </span>
+         <input type="range" name="spicy" value="5" min="1" max="5">
+         </fieldset>
+         <fieldset>
+            <legend>Special Instructions</legend>
+            <textarea name="Instruction" rows="3" cols="42"></textarea>
+         </fieldset>
+    
+         <input type="submit" value="place Your Order">
+         <input type="Reset" value="start over">
+         
+    
+    
+    
+      </body>
+      </html>
+    
+    
+  
